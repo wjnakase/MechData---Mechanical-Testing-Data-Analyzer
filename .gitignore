@@ -1,3 +1,15 @@
+
+# Ignora tudo o que estiver dentro da subpasta raw e processed
+dados/raw/*
+dados/processed/*
+
+# Abre uma exceção para o arquivo .gitkeep não ser ignorado ali dentro
+!dados/raw/.gitkeep
+!dados/processed/.gitkeep
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
