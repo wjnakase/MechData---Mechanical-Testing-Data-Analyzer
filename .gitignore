@@ -1,11 +1,11 @@
 
 # Ignora tudo o que estiver dentro da subpasta raw e processed
-dados/raw/*
-dados/processed/*
+data/raw/*
+data/processed/*
 
 # Abre uma exceção para o arquivo .gitkeep não ser ignorado ali dentro
-!dados/raw/.gitkeep
-!dados/processed/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 
 
