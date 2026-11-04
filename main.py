@@ -39,6 +39,5 @@ def main():
     except Exception as erro:
         print(f"\nErro: {erro}")
 
-
 if __name__ == "__main__":
     main()
